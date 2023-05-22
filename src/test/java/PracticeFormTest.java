@@ -27,7 +27,7 @@ public class PracticeFormTest {
         $(".react-datepicker__month-container").$(byText("30")).click();
         $("#subjectsInput").setValue("Commerce").pressEnter();
         $("#hobbies-checkbox-1").parent().$(byText("Sports")).click();
-        $("#uploadPicture").uploadFromClasspath("im.jpg");
+        $("#uploadPicture").uploadFromClasspath("myfoto.jpg");
         $("#currentAddress").setValue("Lanus, Buenos Aires, Argentina");
         $("#state").click();
         $("#stateCity-wrapper").$(byText("Haryana")).click();
